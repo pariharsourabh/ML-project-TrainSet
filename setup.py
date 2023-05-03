@@ -17,7 +17,7 @@ def get_requirements(file_path:str)->List[str]:
 setup(
     name='TrainsetProject',
     version='0.0.1',
-    author='Sourabh',
+    author='Sourabh Parihar',
     author_email='sourabhparihar1996@gmail.com',
     install_requires=get_requirements('requirements.txt'),
     packages=find_packages()
